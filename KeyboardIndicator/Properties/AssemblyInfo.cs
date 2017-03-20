@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Roi Dayan")]
 [assembly: AssemblyProduct("Keyboard Indicator")]
-[assembly: AssemblyCopyright("Copyright ©  2009-2016 Roi Dayan")]
+[assembly: AssemblyCopyright("Copyright © 2009-2016 Roi Dayan")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
