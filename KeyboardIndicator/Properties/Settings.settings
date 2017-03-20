@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KeyboardIndicator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkBlue</Value>
+    </Setting>
+    <Setting Name="BackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">PaleTurquoise</Value>
+    </Setting>
+    <Setting Name="OsdLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BottomRight</Value>
+    </Setting>
+    <Setting Name="EnableSound" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CapsLockOn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Caps Lock On</Value>
+    </Setting>
+    <Setting Name="CapsLockOff" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Caps Lock Off</Value>
+    </Setting>
+    <Setting Name="ScrollLockOn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Scroll Lock On</Value>
+    </Setting>
+    <Setting Name="ScrollLockOff" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Scroll Lock Off</Value>
+    </Setting>
+    <Setting Name="NumLockOn" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Num Lock On</Value>
+    </Setting>
+    <Setting Name="NumLockOff" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Num Lock Off</Value>
+    </Setting>
+    <Setting Name="InsertPress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Insert</Value>
+    </Setting>
+    <Setting Name="Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Calibri, 20.25pt</Value>
+    </Setting>
+    <Setting Name="Opacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.9</Value>
+    </Setting>
+    <Setting Name="HideAnimation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AW_CENTER</Value>
+    </Setting>
+    <Setting Name="AnimationSpeed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="OsdPoint" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="OsdStyle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="Interval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="UseGlobalConfig" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OsdBorder" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

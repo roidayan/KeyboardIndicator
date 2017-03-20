@@ -1,0 +1,51 @@
+Keyboard Indicator Change Log
+
+1.6.1.0
+- Added option to show or hide osd border
+
+1.6.0.0
+- Fix showing osd on virtual desktops
+- Update icons
+- Update defaults font and colors 
+- Fix updating startup registry
+
+1.5.0.1
+- Changed registry key for startup from HKLC to HKCU
+
+1.5.0.0
+- Fixed labels bug for num lock and scroll lock
+- Fixed a crash when using blend animation
+	this is actually a bug from the Win api animation function causing exception
+	when even one time the animation used was Blend and trying to change opacity.
+- Renamed position option to location
+- New option: manual location using drag and drop
+- New osd style options: sticky horizontal and sticky vertical
+- New option: make label blank to disable osd msg
+- New option: choose interval before hide
+- New option: save to global configuration instead of per user
+	this will save all settings to the default config file in the app directory.
+
+1.4.0.0
+- Fixed bug not hidden from the task manager on startup
+- Fixed opacity control
+- Added more animations to choose from
+- Added option for animation speed
+
+1.3.0.0
+- Ability to change font
+- More label positions to choose from
+- Opacity control
+
+1.2.0.0
+- Custom text (Requested by Maurizio)
+
+1.1.0.0
+- Bug fixes in KeyHook.dll.
+- Changed icons background to red when activated. e.g. caps lock is on.
+
+1.0.1.0
+- Fixed position on screen when using docked bars on top.
+- Added about message box.
+
+1.0.0.0
+- First release
