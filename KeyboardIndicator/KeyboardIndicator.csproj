@@ -160,9 +160,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icon.ico" />
-    <Content Include="license.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="Resources\ScrollLockOff.png" />
     <None Include="Resources\NumLockOn.png" />
     <None Include="Resources\NumLockOff.png" />
