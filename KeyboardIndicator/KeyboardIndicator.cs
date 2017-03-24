@@ -598,7 +598,6 @@ namespace KeyboardIndicator
         {
             const bool v_OnStartup = true;
             RegistryKey regKey = Registry.CurrentUser.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, !v_Writeable);
-            //RegistryKey regKey = Registry.LocalMachine.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, !v_Writeable);
             object value = regKey.GetValue(k_RegKeyboardIndicator);
 
             return value == null ? !v_OnStartup : v_OnStartup;
@@ -607,7 +606,6 @@ namespace KeyboardIndicator
         private void setOnStartup()
         {
             RegistryKey regKey = Registry.CurrentUser.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, v_Writeable);
-            //RegistryKey regKey = Registry.LocalMachine.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, v_Writeable);
             object value = regKey.GetValue(k_RegKeyboardIndicator);
 
             if (value == null)
@@ -621,7 +619,7 @@ namespace KeyboardIndicator
 
         private void removeFromStartup()
         {
-            RegistryKey regKey = Registry.LocalMachine.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, v_Writeable);
+            RegistryKey regKey = Registry.CurrentUser.OpenSubKey(k_RegSoftMicrosoftWinCurrVerRun, v_Writeable);
             object value = regKey.GetValue(k_RegKeyboardIndicator);
 
             if (value != null)
