@@ -592,7 +592,7 @@
             // 
             this.cbOsdBorder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cbOsdBorder.AutoSize = true;
-            this.cbOsdBorder.Location = new System.Drawing.Point(9, 76);
+            this.cbOsdBorder.Location = new System.Drawing.Point(6, 76);
             this.cbOsdBorder.Name = "cbOsdBorder";
             this.cbOsdBorder.Size = new System.Drawing.Size(86, 17);
             this.cbOsdBorder.TabIndex = 12;
